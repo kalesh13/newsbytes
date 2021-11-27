@@ -1,0 +1,78 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+    color: #585858;
+}
+
+#app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 90%;
+    max-width: 800px;
+    min-height: 100vh;
+
+    .form-control {
+        padding: 0.75rem;
+        font-size: 0.9em;
+    }
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.small {
+    font-size: 0.85em;
+}
+
+.x-small {
+    font-size: 0.75em;
+}
+
+.error {
+    border-color: #cb6666;
+    color: #cb6666;
+}
+
+.btn {
+    border: none;
+    font-size: 0.9em;
+    background: #3daf3b;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.35rem 1rem;
+
+    &:hover {
+        background: #308a2f;
+        color: #fff;
+    }
+}
+
+.alert .title {
+    border-bottom: 1px solid #b0d1c2;
+}
+
+.big {
+    font-size: 1.25em;
+}
+
+.table> :not(caption)>*>* {
+    padding: 1rem 0.5rem;
+}
